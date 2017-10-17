@@ -12,6 +12,7 @@ use CodeDelivery\Models\Category;
  */
 class CategoryRepositoryEloquent extends BaseRepository implements CategoryRepository
 {
+
     /**
      * Specify Model class name
      *

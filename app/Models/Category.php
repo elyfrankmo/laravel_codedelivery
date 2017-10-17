@@ -2,7 +2,7 @@
 
 namespace CodeDelivery\Models;
 
-use CodeDelivery\Product;
+use CodeDelivery\Models\Product;
 use Illuminate\Database\Eloquent\Model;
 use Prettus\Repository\Contracts\Transformable;
 use Prettus\Repository\Traits\TransformableTrait;

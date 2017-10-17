@@ -1,16 +1,15 @@
 <?php
 
-namespace CodeDeliveryRepositories;
+namespace CodeDelivery\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use CodeDeliveryRepositories\OrderRepository;
-use CodeDeliveryModels\Order;
-use CodeDeliveryValidators\OrderValidator;
+use CodeDelivery\Repositories\OrderRepository;
+use CodeDelivery\Models\Order;
 
 /**
  * Class OrderRepositoryEloquent
- * @package namespace CodeDeliveryRepositories;
+ * @package namespace CodeDelivery\Repositories;
  */
 class OrderRepositoryEloquent extends BaseRepository implements OrderRepository
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace CodeDeliveryRepositories;
+namespace CodeDelivery\Repositories;
 
 use Prettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface ClientRepository
- * @package namespace CodeDeliveryRepositories;
+ * @package namespace CodeDelivery\Repositories;
  */
 interface ClientRepository extends RepositoryInterface
 {

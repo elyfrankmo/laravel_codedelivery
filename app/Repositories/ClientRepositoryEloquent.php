@@ -1,16 +1,15 @@
 <?php
 
-namespace CodeDeliveryRepositories;
+namespace CodeDelivery\Repositories;
 
 use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
-use CodeDeliveryRepositories\ClientRepository;
-use CodeDeliveryModels\Client;
-use CodeDeliveryValidators\ClientValidator;
+use CodeDelivery\Repositories\ClientRepository;
+use CodeDelivery\Models\Client;
 
 /**
  * Class ClientRepositoryEloquent
- * @package namespace CodeDeliveryRepositories;
+ * @package namespace CodeDelivery\Repositories;
  */
 class ClientRepositoryEloquent extends BaseRepository implements ClientRepository
 {
